@@ -65,7 +65,7 @@ def all_supplies_in_holidays(holiday_hash)
       temp_chol_array = []
       temp_hol_phrase = "  "
       puts holiday.to_s
-      puts holiday_info
+      puts info
       
       
       temp_hol_array.each do |item|
