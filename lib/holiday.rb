@@ -70,6 +70,7 @@ def all_supplies_in_holidays(holiday_hash)
       
       temp_hol_array.each do |item|
         temp_chol_array << item.capitalize
+        puts temp_chol_array
       end
       
       if temp_chol_array.length > 1
