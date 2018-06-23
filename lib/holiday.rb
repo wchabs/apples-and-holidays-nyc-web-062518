@@ -64,27 +64,20 @@ def all_supplies_in_holidays(holiday_hash)
       temp_hol_array = holiday.to_s.split("_")
       temp_chol_array = []
       temp_hol_phrase = "  "
-      puts holiday.to_s
-      puts info
-      
       
       temp_hol_array.each do |item|
         temp_chol_array << item.capitalize
-        puts temp_chol_array
       end
       
       if temp_chol_array.length > 1
         temp_hol_phrase << temp_chol_array.join(" ") + ": "
-        puts temp_hol_phrase
       else
         temp_hol_phrase << temp_chol_array[0] + ": "
-        puts temp_hol_phrase
       end
         
       temp_hol_phrase << info.join(", ")
 
       puts temp_hol_phrase
-      binding.pry
     end
   end
 end
