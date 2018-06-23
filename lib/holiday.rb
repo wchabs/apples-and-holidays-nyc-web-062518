@@ -81,7 +81,7 @@ def all_supplies_in_holidays(holiday_hash)
         puts temp_hol_phrase
       end
         
-      temp_hol_phrase << holiday_info.join(", ")
+      temp_hol_phrase << info.join(", ")
 
       puts temp_hol_phrase
       binding.pry
