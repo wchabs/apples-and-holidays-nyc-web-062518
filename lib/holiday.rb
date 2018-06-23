@@ -74,7 +74,7 @@ def all_supplies_in_holidays(holiday_hash)
       end
       
       if temp_chol_array.length > 1
-        temp_hol_phrase << temp_chol_array.join(", ") + ": "
+        temp_hol_phrase << temp_chol_array.join(" ") + ": "
         puts temp_hol_phrase
       else
         temp_hol_phrase << temp_chol_array[0] + ": "
